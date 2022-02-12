@@ -22,7 +22,7 @@ int main(){
     printf("\n\t\t________________________________________");
     printf("\n\t\t > Press S to  START the game");
     printf("\n\t\t > Press U for SPORTS QUIZ             ");
-    printf("\n\t\t > Press U for ENTERTAINMENT QUIZ             ");
+    printf("\n\t\t > Press I for ENTERTAINMENT QUIZ             ");
     printf("\n\t\t > Press H for HELP             ");
     printf("\n\t\t > Press E to  EXIT             ");
     printf("\n\t\t________________________________________\n\n");
