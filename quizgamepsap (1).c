@@ -54,6 +54,7 @@ int main(){
     printf("\n\t\t > Press Y to  START the game");
     printf("\n\t\t > Press Z to  return  to the MAIN MENU ");
     //MENU- Khushi
- 
+    //Entertainment and sports quiz easy medium and hard options
+    
     return 0;
 }
