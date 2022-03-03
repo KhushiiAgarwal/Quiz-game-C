@@ -65,8 +65,8 @@ int main(){
      r=i;
 
      switch(r)
-		{
-		case 1:
+	{
+	case 1:
 		printf("\n\nFictional Gadget `ANYWHERE DOOR` is seen in which cartoon ?\n");
 		printf("\n\nA.Shinchan\t\tB.Mighty Raju \n\nC.Ninja Hathori\t\tD.Doraemon\n");
 		if (toupper(getch())=='D')
@@ -76,7 +76,7 @@ int main(){
 		       {printf("\n\nWrong!!! The correct answer is D.Doraemon");getch();
 		       break;}
 
-		case 2:
+	case 2:
 		printf("\n\n\nWhat`s the full form of `DDLJ` , one of the hit movie of Shahrukh Khan?\n");
 		printf("\n\nA.Dil Diya Love Jo\t\tB.Dilwali Doll  Le Jayenge\n\nC.Dilwali Dulhania Le Jayenge \t\tD.Delhi Dehradun Le Jayenge\n");
 		if (toupper(getch())=='C')
@@ -180,8 +180,8 @@ int main(){
      r=i;
 
      switch(r)
-		{
-		case 1:
+	{
+	case 1:
 		printf("\n\n`Lungi Dance` song is featured in ________\n");
 		printf("\n\nA.Chennai Express\t\tB.Pushpa\n\nC.Chennai vs China \t\tD.Robot\n");
 		if (toupper(getch())=='A')
@@ -191,7 +191,7 @@ int main(){
 		       {printf("\n\nWrong!!! The correct answer is A.Chennai Express");getch();
 		       break;}
 
-		case 2:
+	case 2:
 		printf("\n\n\nWhich actress is in movie `Phantom` ?\n");
 		printf("\n\nA.Ileana D'Cruz\t\tB.Katrina Kaif\n\nC.Alia Bhat\t\tD.Sonakshi Sinha\n");
 		if (toupper(getch())=='B')
