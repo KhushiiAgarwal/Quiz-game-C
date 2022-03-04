@@ -7,6 +7,9 @@
 
 int main(){
 
+    int countr=0,r,i;
+    char choice;
+
     //INTRODUCTION- Sanskruti
     printf("\t\t\t  C PROGRAM QUIZ GAME\n");
     printf("\n\t\t________________________________________");
@@ -26,8 +29,13 @@ int main(){
     printf("\n\t\t > Press H for HELP             ");
     printf("\n\t\t > Press E to  EXIT             ");
     printf("\n\t\t________________________________________\n\n");
+    choice=toupper(getch());
     //MAIN MENU- Khushi
-   
+
+    if (choice=='I')
+	{
+	goto EntertainmentQuiz;
+	}
 
     //HELP- Sanskruti
     printf("\n\n                               HELP");
@@ -38,13 +46,13 @@ int main(){
     printf("\n\t\t  2. Entertainment Quiz ");
     printf("\n\t  > Each category comprises 3 rounds: ");
     printf("\n\t\t  1. Easy ");
-    printf("\n\t\t  2. Medium"); 
+    printf("\n\t\t  2. Medium");
     printf("\n\t\t  3. Difficult");
-    printf("\n\t  > Each round will have 10 questions."); 
+    printf("\n\t  > Each round will have 10 questions.");
     printf("\n\t  > For each question you will be given 4 options and you have to press A, B ,C or D for the right option.");
     printf("\n\t  > 10 points will be awarded for each right answer.");
-    printf("\n\t  > No negative points for wrong answer."); 
-    printf("\n\t  > Final score will be available after each round."); 
+    printf("\n\t  > No negative points for wrong answer.");
+    printf("\n\t  > Final score will be available after each round.");
     printf("\n\t\t________________________________________");
     printf("\n\t\t________________________________________");
     printf("\n\n\t!!!!!!!!!!!!! ALL THE BEST !!!!!!!!!!!!!!!!!");
@@ -55,11 +63,12 @@ int main(){
     printf("\n\t\t > Press Z to  return  to the MAIN MENU ");
     //MENU- Khushi
     //Entertainment and sports quiz easy medium and hard options
-    
+
+    EntertainmentQuiz:
+
     //Entertainment Questions
     //Easy
-    
-    int countr=0,r,i;
+
      for(i=1;i<=10;i++)
      {system("cls");
      r=i;
@@ -172,9 +181,9 @@ int main(){
 
         }
     }
-    
+
     //Medium
-    
+
     for(i=1;i<=10;i++)
      {system("cls");
      r=i;
@@ -287,6 +296,6 @@ int main(){
 
         }
     }
-    
+
     return 0;
 }
