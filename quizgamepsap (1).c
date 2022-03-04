@@ -9,6 +9,7 @@ int main(){
 
     int countr=0,r,i;
     char choice;
+    int counter;
 
     //INTRODUCTION- Sanskruti
     printf("\t\t\t  C PROGRAM QUIZ GAME\n");
@@ -296,9 +297,9 @@ int main(){
 
         }
     }
-	
+
 	game_entertainmentdifficult:
-        counter=0;
+       counter=0;
         for ( i = 0; i <= 10; i++)
         {
             system("cls");
@@ -476,10 +477,10 @@ int main(){
                     }
             }
         }
-	
+
 	//Sports Quiz
 	//Easy
-	
+
      	for(i=1;i<=10;i++)
      	{system("cls");
      	r=i;
@@ -707,9 +708,9 @@ int main(){
 
         }
     }
-	
+
 	//Difficult
-	
+
 	game_sportsdifficult:
         counter=0;
         for ( i = 0; i <= 10; i++)
@@ -888,7 +889,9 @@ int main(){
 
                     }
             }
-	
 
+
+    }
     return 0;
 }
+
