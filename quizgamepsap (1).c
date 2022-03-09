@@ -13,24 +13,17 @@ int main(){
     int counter;
 
     //INTRODUCTION- Sanskruti
-    printf("\t\t\t  C PROGRAM QUIZ GAME\n");
-    printf("\n\t\t________________________________________");
-    printf("\n\t\t\t    WELCOME ");
-    printf("\n\t\t\t      to ");
-    printf("\n\t\t\t    THE GAME ");
-    printf("\n\t\t________________________________________");
-    printf("\n\t\t________________________________________");
-    printf("\n\t\t\t    PLAY QUIZZES ");
-    printf("\n\t\t\t      and ");
-    printf("\n\t\t\t    EARN POINTS ");
-    printf("\n\t\t________________________________________");
-    printf("\n\t\t________________________________________");
-    printf("\n\t\t > Press S to  START the game");
-    printf("\n\t\t > Press U for SPORTS QUIZ             ");
-    printf("\n\t\t > Press I for ENTERTAINMENT QUIZ             ");
+      printf("\n\t\t   *****************");
+    printf("\n\t\t\t    WELCOME To ");
+    printf("\n\t\t\t   THE QUIZ GAME  ");
+    printf("\n\t\t   ******************");
+    printf("\n\t\t  ######################################");
+    printf("\n\t\t > Press B to  Begin");
+    printf("\n\t\t > Press S for SPORTS QUIZ             ");
+    printf("\n\t\t > Press Q for ENTERTAINMENT QUIZ             ");
     printf("\n\t\t > Press H for HELP             ");
     printf("\n\t\t > Press E to  EXIT             ");
-    printf("\n\t\t________________________________________\n\n");
+    printf("\n\t\t######################################\n\n");
     choice=toupper(getch());
     //MAIN MENU- Khushi
 
