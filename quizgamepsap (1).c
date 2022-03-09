@@ -6,6 +6,7 @@
 #include<ctype.h>
 
 int main(){
+	
 
     int countr=0,r,i;
     char choice;
