@@ -11,6 +11,6 @@
 ### Setup & Installation
 * Install VS Code: https://code.visualstudio.com/download and then download the C/C++ extension by Microsoft. Use mingw as compiler
 * Code Blocks: https://www.codeblocks.org/downloads/ with default settings. 
-* Clone the repo and run the code.
+* Clone the repo in VSCode using [vscode](https://vscode.dev/https://github.com/KhushiiAgarwal/Quiz-game-C) and run the code.
 
 If you find my repository helpful, please star⭐ it 🌟.
